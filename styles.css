@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+   height: 100%;
+}
+body{
+    background-color: black;
+    background-image: url('https://images5.alphacoders.com/725/725250.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+div>img{
+    width: 100%;
+    height:100%;
+    max-width: 200px;
+    max-height: 500px;
+}
+nav{
+    border-bottom: solid 1px rgb(155, 154, 154);
+    background-color: rgba(90, 88, 88, 0.4);
+}
+
+.label{
+    background-color: rgba(12, 11, 11, 0.7);
+    border-radius: 50%;
+    height: 40px;
+    font-size:1.5rem;
+    width: 90%;
+}
+@media screen and (max-width:600px) {
+    .label{
+        font-size: 18px;
+        width: 100%;
+    }
+}
